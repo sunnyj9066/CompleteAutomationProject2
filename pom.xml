@@ -19,7 +19,9 @@
 <profiles>
   <profile>
 	<id>sonar</id>
-	   <sonar.host.url>http://localhost:9000</sonar.host.url>
+	  <properties>
+	  <sonar.host.url>http://localhost:9000</sonar.host.url>
+          </properties>
   </profile>
 </profiles>
 
